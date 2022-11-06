@@ -1,0 +1,14 @@
+###
+GET http://localhost:3000/api/v1/data
+
+###
+POST http://localhost:3000/api/v1/data
+Content-Type: application/json
+
+{
+  "name": "test",
+  "lastname": "test",
+  "email": "test@test.com",
+  "phone": "1234567890",
+  "message": "test"
+}
